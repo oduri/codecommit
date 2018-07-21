@@ -1,0 +1,1 @@
+This is the ouput folder for pdf report generation

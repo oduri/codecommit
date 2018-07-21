@@ -1,0 +1,46 @@
+<html>
+<body>
+    <div id="auto" style="page-break-before:always">
+	<p align="center" id="assettitle">@assetName</p>
+	<table id='assetinfotable' style="height:100px" width='100%' cellspacing='0' cellpadding='0'>
+	<tr>
+		<td>
+			<table width='80%' border='0' cellspacing='0' cellpadding='10' id="assetInfo">
+				<tr><td style="width:10%"><b>Name:</b></td><td><b>@asset_name</b></td></tr>
+				<tr><td style="width:10%"><b>DeviceName:</b></td><td><b>@device_name</b></td></tr>
+				<tr><td style="width:10%"><b>LastReportedTime:</b></td><td><b>@message_time</b></td></tr>
+			</table>
+		</td>
+		<td>
+					<table width='20%' border='0' cellspacing='0' cellpadding='10'id="asset">
+						<tr><td><img id="deviceImage" style="height:125px;width:125px" src="file:///usr/local/tomcat/webapps/ReportGeneratorServices/WEB-INF/classes/images/t_kochag.jpg"></img></td></tr>
+					</table>
+		</td>
+	</tr>
+</table>
+<div style="text-align:center">
+<h5 id="rmsvelocity">RMS Velocity Radial</h5>
+</div>
+<img id="topChart"  style="width:95%"   src="file:///usr/local/tomcat/webapps/ReportGeneratorServices/WEB-INF/classes/images/topChart.png"> 
+<div style="text-align:center" id="rmsvelocityspectrum">
+<h5 id="rmsvelocity-subtitle" style="text-align:center">Spectrum</h5>
+</div>
+<!--<img id="bottomChart" style="width:700px" src="file:///usr/local/tomcat/webapps/ReportGeneratorServices/WEB-INF/classes/images/bottomChart.png"></img>-->
+<img id="bottomChart" style="width:95%" src="file:///usr/local/tomcat/webapps/ReportGeneratorServices/WEB-INF/classes/images/bottomChart.png">
+<div id="comments-title" style="text-align:center;page-break-before:always">
+<h5>Comments </h5>
+</div>
+<table width='100%' cellspacing='0' cellpadding='0' id="comments-table">
+	<tr>
+		<td>
+			<table width='100%' border='1' cellspacing='0' cellpadding='10' id="comments">
+				<tr style="background:#E4E4E4"><td>Comments</td><td>User</td><td>Date</td></tr>
+				
+			</table>
+		</td>
+	</tr>
+</table>
+</div>
+</body>
+</html>
+

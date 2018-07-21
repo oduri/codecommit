@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.kavi.services</groupId>
+  <artifactId>DSS_MicroServices</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <packaging>pom</packaging>
+  
+  <modules>
+  	<module>ReportServices</module>
+  	<module>LoginServices</module>
+  	<module>RuleServices</module>
+    <module>CommonServices</module>
+	<module>UserServices</module>
+	<module>TwowayCommServices</module>
+	<module>EndpointServices</module>
+	<module>ReportGeneratorServices</module>
+  </modules>
+</project>

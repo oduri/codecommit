@@ -1,0 +1,148 @@
+<html>
+<body>
+<style>
+  #circleRed {
+      width: 10px;
+      height: 10px;
+      -webkit-border-radius: 10px;
+      -moz-border-radius: 10px;
+      border-radius: 10px;
+      background: red;
+    }
+ #circleGreen {
+      width: 10px;
+      height: 10px;
+      -webkit-border-radius: 10px;
+      -moz-border-radius: 10px;
+      border-radius: 10px;
+      background: green;
+    }
+ #circleGrey {
+      width: 10px;
+      height: 10px;
+      -webkit-border-radius: 10px;
+      -moz-border-radius: 10px;
+      border-radius: 10px;
+      background: #808080;
+    }
+
+ #circleOrange {
+      width: 10px;
+      height: 10px;
+      -webkit-border-radius: 10px;
+      -moz-border-radius: 10px;
+      border-radius: 10px;
+      background: orange;
+    }
+ </style>
+
+<div class="header">
+  <img style="float: left;
+  width: 150px;
+  height: 30px;" src="file:///usr/local/tomcat/webapps/ReportGeneratorServices/WEB-INF/classes/images/molex-logo.jpg" id="siteHeaderImage"></img>
+  <span style="position: relative;
+  top: 1px;
+  left: 250px;
+  font-size:22px"><b id="siteCaption">@companyName @siteName Health Report</b></span>
+</div><br>
+<!--
+<div style="text-align:center">
+<h2>Mvib</h2>
+</div>
+-->
+<div>
+<table align="center" cellspacing='0' cellpadding='0'>
+	<tr><td>
+	<td><img style="width: 250px;" src="file:///usr/local/tomcat/webapps/ReportGeneratorServices/WEB-INF/classes/images/pieChart.png" id="unitPieChartImage"/></td>
+	<td><img style="width: 250px;" src="file:///usr/local/tomcat/webapps/ReportGeneratorServices/WEB-INF/classes/images/pieChart.png" id="assetPieChartImage"/></td>
+	<td><img style="width: 250px;" src="file:///usr/local/tomcat/webapps/ReportGeneratorServices/WEB-INF/classes/images/pieChart.png" id="devicePieChartImage"/></td>
+	</td><td></td><td>
+	<table>
+		<tr><td><div id="circleRed"></div></td><td style="font-size:15px;"><b>Alarm</td></tr>
+		<!--<tr><td><div id="circleGreen"></div></td><td style="font-size:15px;"><b>Ok</td></tr>-->
+		<tr><td><div id="circleOrange"></div></td><td style="font-size:15px;"><b>Alert</td></tr>
+		<tr><td><div id="circleGrey"></div></td><td style="font-size:15px;"><b>Unknown</td></tr>
+	</table>
+	</td>
+	</tr>
+</table>
+</div>
+<!--
+<br>
+<table align="center">
+<tr>
+	<td><div id="circleRed"></div></td><td style="font-size:16px;"><b>Alarm</td><td style="width:5%"></td>
+	<td><div id="circleGreen"></div></td><td style="font-size:16px;"><b>Ok</td><td style="width:5%"></td>
+	<td><div id="circleOrange"></div></td><td style="font-size:16px;"><b>Alert</td><td style="width:5%"></td>
+	<td><div id="circleGrey"></div></td><td style="font-size:16px;"><b>Unknown</td><td style="width:5%"></td>
+
+  </tr>
+  </table>
+-->
+<br>
+<div>
+<table align="center" width='750' cellspacing='0' cellpadding='0'>
+<tr>
+	<td style="width: 18%;text-align:center">
+<!--<button style="background:#61839C;position: relative;border-width: 0 0 1px;">
+<img style="width:15px;height:20px;display:;inline-block;" src="file:///usr/local/tomcat/webapps/ReportGeneratorServices/WEB-INF/classes/images/location.png" />
+
+-->
+	<img style="display: inline-block;" src=
+	"file:///usr/local/tomcat/webapps/ReportGeneratorServices/WEB-INF/classes/images/location.png" />
+    <span style="font-size:18"><b> Units</b><span></td>
+
+	<td style="width: 23%;text-align:center">
+	<img style="display: inline-block;" src=
+	"file:///usr/local/tomcat/webapps/ReportGeneratorServices/WEB-INF/classes/images/asset.png" />
+    <span style="font-size:18"><b> Assets</b><span></td>
+
+	<td style="width: 25%;text-align:center">
+	<img style="display: inline-block;" src=
+	"file:///usr/local/tomcat/webapps/ReportGeneratorServices/WEB-INF/classes/images/device.png" />
+    <span style="font-size:18"><b> Devices</b><span></td> 
+</tr>
+</table>
+</div>
+<br>
+<div style="text-align:center">
+<h3>Assets in Alarm and Alert Status</h3>
+</div>
+<br>
+<div>
+<table align="center" width='100%' cellspacing='0' cellpadding='0'>
+	<tr>
+		<td>
+			<table width='100%' border='1' cellspacing='0' cellpadding='10' id="status-1">
+				<tr style="background:#E4E4E4"><td colspan='2' style="text-align:center">Unit Name:@unitName</td></tr>
+				<tr><td width ='25%'>Assets in unknown<img style="width:18px;height:18px;float:right;" src="file:///usr/local/tomcat/webapps/ReportGeneratorServices/WEB-INF/classes/images/unknown.png" /></td><td id="id"></td></tr>
+			</table>
+
+			<table width='100%' border='1' cellspacing='0' cellpadding='10'id="status0">
+				<tr style="background:#E4E4E4"><td colspan='2' style="text-align:center">Unit Name:@unitName</td></tr>
+				<tr><td width ='25%'>Assets in Ok <img style="width:18px;height:18px;float:right;" src="file:///usr/local/tomcat/webapps/ReportGeneratorServices/WEB-INF/classes/images/okay.png" /></td><td id="id"></td></tr>
+			</table>
+			<table width='100%' border='1' cellspacing='0' cellpadding='10'id="status1">
+				<tr style="background:#E4E4E4"><td colspan='2' style="text-align:center">Unit Name:@unitName</td></tr>
+				<tr><td width ='25%'>Assets in Alert <img style="width:18px;height:18px;float:right;" src="file:///usr/local/tomcat/webapps/ReportGeneratorServices/WEB-INF/classes/images/alert.png" /></td><td id="id"></td></tr>
+			</table>
+			<table width='100%' border='1' cellspacing='0' cellpadding='10'id="status2">
+				<tr style="background:#E4E4E4"><td colspan='2' style="text-align:center">Unit Name:@unitName</td></tr>
+				<tr><td width ='25%'>Assets in Alarm <img style="width:18px;height:18px;float:right;" src="file:///usr/local/tomcat/webapps/ReportGeneratorServices/WEB-INF/classes/images/alarm.png" /></td><td id="id"></td></tr>
+			</table>
+		</td>
+	</tr>
+</table>
+
+</div>
+<div id="footer" style=" position: fixed;
+   left: 0;
+   color:#999;
+   bottom: 0;
+   width: 100%;
+   text-align: center;
+   ">
+    Generated as of @Date at @Time
+</div>
+</body>
+</html>

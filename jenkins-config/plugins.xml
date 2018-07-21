@@ -1,0 +1,341 @@
+<plugins>
+   <longName>Pipeline: REST API Plugin</longName>
+   <shortName>pipeline-rest-api</shortName>
+   <version>2.9</version>
+   <longName>Script Security Plugin</longName>
+   <shortName>script-security</shortName>
+   <version>1.40</version>
+   <longName>Command Agent Launcher Plugin</longName>
+   <shortName>command-launcher</shortName>
+   <version>1.2</version>
+   <longName>JavaScript GUI Lib: Handlebars bundle plugin</longName>
+   <shortName>handlebars</shortName>
+   <version>1.1.1</version>
+   <longName>Folders Plugin</longName>
+   <shortName>cloudbees-folder</shortName>
+   <version>6.3</version>
+   <longName>Windows Slaves Plugin</longName>
+   <shortName>windows-slaves</shortName>
+   <version>1.3.1</version>
+   <longName>bouncycastle API Plugin</longName>
+   <shortName>bouncycastle-api</shortName>
+   <version>2.16.2</version>
+   <longName>Branch API Plugin</longName>
+   <shortName>branch-api</shortName>
+   <version>2.0.18</version>
+   <longName>Structs Plugin</longName>
+   <shortName>structs</shortName>
+   <version>1.10</version>
+   <longName>Pipeline: Step API</longName>
+   <shortName>workflow-step-api</shortName>
+   <version>2.14</version>
+   <longName>Docker Commons Plugin</longName>
+   <shortName>docker-commons</shortName>
+   <version>1.11</version>
+   <longName>SCM API Plugin</longName>
+   <shortName>scm-api</shortName>
+   <version>2.2.6</version>
+   <longName>Pipeline: API</longName>
+   <shortName>workflow-api</shortName>
+   <version>2.24</version>
+   <longName>Docker Pipeline</longName>
+   <shortName>docker-workflow</shortName>
+   <version>1.14</version>
+   <longName>JUnit Plugin</longName>
+   <shortName>junit</shortName>
+   <version>1.23</version>
+   <longName>OWASP Markup Formatter Plugin</longName>
+   <shortName>antisamy-markup-formatter</shortName>
+   <version>1.5</version>
+   <longName>Display URL API</longName>
+   <shortName>display-url-api</shortName>
+   <version>2.2.0</version>
+   <longName>Pipeline: Supporting APIs</longName>
+   <shortName>workflow-support</shortName>
+   <version>2.16</version>
+   <longName>Pipeline: Job</longName>
+   <shortName>workflow-job</shortName>
+   <version>2.16</version>
+   <longName>Token Macro Plugin</longName>
+   <shortName>token-macro</shortName>
+   <version>2.3</version>
+   <longName>Credentials Plugin</longName>
+   <shortName>credentials</shortName>
+   <version>2.1.16</version>
+   <longName>Jenkins Mailer Plugin</longName>
+   <shortName>mailer</shortName>
+   <version>1.20</version>
+   <longName>SSH Credentials Plugin</longName>
+   <shortName>ssh-credentials</shortName>
+   <version>1.13</version>
+   <longName>Plain Credentials Plugin</longName>
+   <shortName>plain-credentials</shortName>
+   <version>1.4</version>
+   <longName>Matrix Authorization Strategy Plugin</longName>
+   <shortName>matrix-auth</shortName>
+   <version>2.2</version>
+   <longName>Credentials Binding Plugin</longName>
+   <shortName>credentials-binding</shortName>
+   <version>1.13</version>
+   <longName>Timestamper</longName>
+   <shortName>timestamper</shortName>
+   <version>1.8.9</version>
+   <longName>Durable Task Plugin</longName>
+   <shortName>durable-task</shortName>
+   <version>1.17</version>
+   <longName>Pipeline Graph Analysis Plugin</longName>
+   <shortName>pipeline-graph-analysis</shortName>
+   <version>1.6</version>
+   <longName>Pipeline: Nodes and Processes</longName>
+   <shortName>workflow-durable-task-step</shortName>
+   <version>2.17</version>
+   <longName>Matrix Project Plugin</longName>
+   <shortName>matrix-project</shortName>
+   <version>1.12</version>
+   <longName>Jenkins JSch dependency plugin</longName>
+   <shortName>jsch</shortName>
+   <version>0.1.54.1</version>
+   <longName>Resource Disposer Plugin</longName>
+   <shortName>resource-disposer</shortName>
+   <version>0.8</version>
+   <longName>GitHub API Plugin</longName>
+   <shortName>github-api</shortName>
+   <version>1.90</version>
+   <longName>Jenkins Workspace Cleanup Plugin</longName>
+   <shortName>ws-cleanup</shortName>
+   <version>0.34</version>
+   <longName>Ant Plugin</longName>
+   <shortName>ant</shortName>
+   <version>1.7</version>
+   <longName>Gradle Plugin</longName>
+   <shortName>gradle</shortName>
+   <version>1.28</version>
+   <longName>Pipeline: Milestone Step</longName>
+   <shortName>pipeline-milestone-step</shortName>
+   <version>1.3.1</version>
+   <longName>JavaScript GUI Lib: jQuery bundles (jQuery and jQuery UI) plugin</longName>
+   <shortName>jquery-detached</shortName>
+   <version>1.2.1</version>
+   <longName>Jenkins Git plugin</longName>
+   <shortName>git</shortName>
+   <version>3.7.0</version>
+   <longName>Jackson 2 API Plugin</longName>
+   <shortName>jackson2-api</shortName>
+   <version>2.8.10.1</version>
+   <longName>JavaScript GUI Lib: ACE Editor bundle plugin</longName>
+   <shortName>ace-editor</shortName>
+   <version>1.1</version>
+   <longName>Jenkins Git client plugin</longName>
+   <shortName>git-client</shortName>
+   <version>2.7.0</version>
+   <longName>Pipeline: SCM Step</longName>
+   <shortName>workflow-scm-step</shortName>
+   <version>2.6</version>
+   <longName>GitHub plugin</longName>
+   <shortName>github</shortName>
+   <version>1.29.0</version>
+   <longName>Pipeline: Groovy</longName>
+   <shortName>workflow-cps</shortName>
+   <version>2.42</version>
+   <longName>Pipeline: Input Step</longName>
+   <shortName>pipeline-input-step</shortName>
+   <version>2.8</version>
+   <longName>Jenkins GIT server Plugin</longName>
+   <shortName>git-server</shortName>
+   <version>1.7</version>
+   <longName>Pipeline: Stage Step</longName>
+   <shortName>pipeline-stage-step</shortName>
+   <version>2.3</version>
+   <longName>JavaScript GUI Lib: Moment.js bundle plugin</longName>
+   <shortName>momentjs</shortName>
+   <version>1.1.1</version>
+   <longName>Pipeline: Shared Groovy Libraries</longName>
+   <shortName>workflow-cps-global-lib</shortName>
+   <version>2.9</version>
+   <longName>Pipeline: Stage View Plugin</longName>
+   <shortName>pipeline-stage-view</shortName>
+   <version>2.9</version>
+   <longName>Pipeline: Build Step</longName>
+   <shortName>pipeline-build-step</shortName>
+   <version>2.6</version>
+   <longName>Pipeline: Model API</longName>
+   <shortName>pipeline-model-api</shortName>
+   <version>1.2.6</version>
+   <longName>Pipeline: Declarative Extension Points API</longName>
+   <shortName>pipeline-model-extensions</shortName>
+   <version>1.2.6</version>
+   <longName>Jenkins Apache HttpComponents Client 4.x API Plugin</longName>
+   <shortName>apache-httpcomponents-client-4-api</shortName>
+   <version>4.5.3-2.0</version>
+   <longName>GitHub Authentication plugin</longName>
+   <shortName>github-oauth</shortName>
+   <version>0.28.1</version>
+   <longName>Pipeline: Multibranch</longName>
+   <shortName>workflow-multibranch</shortName>
+   <version>2.16</version>
+   <longName>GitHub Integration Plugin</longName>
+   <shortName>github-pullrequest</shortName>
+   <version>0.1.0-rc29</version>
+   <longName>Authentication Tokens API Plugin</longName>
+   <shortName>authentication-tokens</shortName>
+   <version>1.3</version>
+   <longName>Pipeline: Stage Tags Metadata</longName>
+   <shortName>pipeline-stage-tags-metadata</shortName>
+   <version>1.2.6</version>
+   <longName>Pipeline: Declarative Agent API</longName>
+   <shortName>pipeline-model-declarative-agent</shortName>
+   <version>1.1.1</version>
+   <longName>Pipeline: Basic Steps</longName>
+   <shortName>workflow-basic-steps</shortName>
+   <version>2.6</version>
+   <longName>Pipeline: Declarative</longName>
+   <shortName>pipeline-model-definition</shortName>
+   <version>1.2.6</version>
+   <longName>NodeJS Plugin</longName>
+   <shortName>nodejs</shortName>
+   <version>1.2.4</version>
+   <longName>jQuery plugin</longName>
+   <shortName>jquery</shortName>
+   <version>1.12.4-0</version>
+   <longName>Pipeline</longName>
+   <shortName>workflow-aggregator</shortName>
+   <version>2.5</version>
+   <longName>GitHub Branch Source Plugin</longName>
+   <shortName>github-branch-source</shortName>
+   <version>2.3.2</version>
+   <longName>Amazon Web Services SDK</longName>
+   <shortName>aws-java-sdk</shortName>
+   <version>1.11.264</version>
+   <longName>Pipeline: GitHub Groovy Libraries</longName>
+   <shortName>pipeline-github-lib</shortName>
+   <version>1.0</version>
+   <longName>Docker plugin</longName>
+   <shortName>docker-plugin</shortName>
+   <version>1.1.2</version>
+   <longName>MapDB API Plugin</longName>
+   <shortName>mapdb-api</shortName>
+   <version>1.0.9.0</version>
+   <longName>Jenkins Subversion Plug-in</longName>
+   <shortName>subversion</shortName>
+   <version>2.10.2</version>
+   <longName>Jenkins SSH Slaves plugin</longName>
+   <shortName>ssh-slaves</shortName>
+   <version>1.25</version>
+   <longName>Amazon EC2 Container Service plugin</longName>
+   <shortName>amazon-ecs</shortName>
+   <version>1.11</version>
+   <longName>PAM Authentication plugin</longName>
+   <shortName>pam-auth</shortName>
+   <version>1.3</version>
+   <longName>LDAP Plugin</longName>
+   <shortName>ldap</shortName>
+   <version>1.18</version>
+   <longName>Docker Slaves Plugin</longName>
+   <shortName>docker-slaves</shortName>
+   <version>1.0.7</version>
+   <longName>Email Extension Plugin</longName>
+   <shortName>email-ext</shortName>
+   <version>2.61</version>
+   <longName>Maven Metadata Plugin for Jenkins CI server</longName>
+   <shortName>maven-metadata-plugin</shortName>
+   <version>2.0.0</version>
+   <longName>Javadoc Plugin</longName>
+   <shortName>javadoc</shortName>
+   <version>1.4</version>
+   <longName>Maven Integration plugin</longName>
+   <shortName>maven-plugin</shortName>
+   <version>3.0</version>
+   <longName>JDK Parameter Plugin</longName>
+   <shortName>JDK_Parameter_Plugin</shortName>
+   <version>1.0</version>
+   <longName>openJDK-native-plugin</longName>
+   <shortName>openJDK-native-plugin</shortName>
+   <version>1.1</version>
+   <longName>SSH Agent Plugin</longName>
+   <shortName>ssh-agent</shortName>
+   <version>1.15</version>
+   <longName>GitHub Jira Validator SCM Filter Plugin</longName>
+   <shortName>github-scm-filter-jira-validator</shortName>
+   <version>0.1.0</version>
+   <longName>CloudBees Amazon Web Services Credentials Plugin</longName>
+   <shortName>aws-credentials</shortName>
+   <version>1.23</version>
+   <longName>Amazon ECR plugin</longName>
+   <shortName>amazon-ecr</shortName>
+   <version>1.6</version>
+   <longName>Common API for Blue Ocean</longName>
+   <shortName>blueocean-commons</shortName>
+   <version>1.4.0</version>
+   <longName>REST API for Blue Ocean</longName>
+   <shortName>blueocean-rest</shortName>
+   <version>1.4.0</version>
+   <longName>Jenkins Pub-Sub "light" Bus</longName>
+   <shortName>pubsub-light</shortName>
+   <version>1.12</version>
+   <longName>Pipeline SCM API for Blue Ocean</longName>
+   <shortName>blueocean-pipeline-scm-api</shortName>
+   <version>1.4.0</version>
+   <longName>Jenkins JIRA plugin</longName>
+   <shortName>jira</shortName>
+   <version>2.5</version>
+   <longName>HTML Publisher plugin</longName>
+   <shortName>htmlpublisher</shortName>
+   <version>1.14</version>
+   <longName>Jenkins Design Language</longName>
+   <shortName>jenkins-design-language</shortName>
+   <version>1.4.0</version>
+   <longName>CloudBees Docker Build and Publish plugin</longName>
+   <shortName>docker-build-publish</shortName>
+   <version>1.3.2</version>
+   <longName>Blue Ocean Core JS</longName>
+   <shortName>blueocean-core-js</shortName>
+   <version>1.4.0</version>
+   <longName>Variant Plugin</longName>
+   <shortName>variant</shortName>
+   <version>1.1</version>
+   <longName>Web for Blue Ocean</longName>
+   <shortName>blueocean-web</shortName>
+   <version>1.4.0</version>
+   <longName>JWT for Blue Ocean</longName>
+   <shortName>blueocean-jwt</shortName>
+   <version>1.4.0</version>
+   <longName>Favorite</longName>
+   <shortName>favorite</shortName>
+   <version>2.3.1</version>
+   <longName>Docker API Plugin</longName>
+   <shortName>docker-java-api</shortName>
+   <version>3.0.14</version>
+   <longName>REST Implementation for Blue Ocean</longName>
+   <shortName>blueocean-rest-impl</shortName>
+   <version>1.4.0</version>
+   <longName>Pipeline implementation for Blue Ocean</longName>
+   <shortName>blueocean-pipeline-api-impl</shortName>
+   <version>1.4.0</version>
+   <longName>CloudBees Docker Traceability</longName>
+   <shortName>docker-traceability</shortName>
+   <version>1.2</version>
+   <longName>Amazon EC2 Container Service plugin with autoscaling capabilities</longName>
+   <shortName>scalable-amazon-ecs</shortName>
+   <version>1.0</version>
+   <longName>docker-build-step</longName>
+   <shortName>docker-build-step</shortName>
+   <version>1.43</version>
+   <longName>Async Http Client</longName>
+   <shortName>async-http-client</shortName>
+   <version>1.9.40.0</version>
+   <longName>CloudBees Docker Hub/Registry Notification</longName>
+   <shortName>dockerhub-notification</shortName>
+   <version>2.2.1</version>
+   <longName>CloudBees Docker Custom Build Environment Plugin</longName>
+   <shortName>docker-custom-build-environment</shortName>
+   <version>1.6.5</version>
+   <longName>Config File Provider Plugin</longName>
+   <shortName>config-file-provider</shortName>
+   <version>2.17</version>
+   <longName>Role-based Authorization Strategy</longName>
+   <shortName>role-strategy</shortName>
+   <version>2.7.0</version>
+   <longName>Discard Old Build plugin</longName>
+   <shortName>discard-old-build</shortName>
+   <version>1.05</version>
+</plugins>
